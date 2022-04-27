@@ -1,0 +1,96 @@
+body {
+  background-color: #c3cfe2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
+img {
+  width: 45x;
+  height: 45px;
+  padding-right: 30px;
+}
+
+.social {
+  position: fixed;
+  padding: 0;
+  right: 0px;
+  bottom: 50px;
+}
+
+.social ul {
+  list-style: none;
+  padding: 0;
+  -webkit-transform: translate(230px, 0);
+          transform: translate(230px, 0);
+}
+
+.social li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  padding-right: 20px;
+  border-spacing: 0ch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  text-decoration: underline;
+  text-align: right;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.social .blog {
+  background-color: #F06A35;
+}
+
+.social .blog:hover {
+  -webkit-transform: translate(-230px, 0);
+          transform: translate(-230px, 0);
+}
+
+.social .twitter {
+  background-color: #50ABF1;
+}
+
+.social .twitter:hover {
+  -webkit-transform: translate(-230px, 0);
+          transform: translate(-230px, 0);
+}
+
+.social .linkedin {
+  background-color: #037BB5;
+}
+
+.social .linkedin:hover {
+  -webkit-transform: translate(-230px, 0);
+          transform: translate(-230px, 0);
+}
+
+.social .facebook {
+  background-color: #3B5997;
+}
+
+.social .facebook:hover {
+  -webkit-transform: translate(-230px, 0);
+          transform: translate(-230px, 0);
+}
+
+.social .github {
+  background-color: black;
+}
+
+.social .github:hover {
+  -webkit-transform: translate(-230px, 0);
+          transform: translate(-230px, 0);
+}
+/*# sourceMappingURL=style.css.map */
